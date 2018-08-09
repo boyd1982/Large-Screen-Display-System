@@ -8,10 +8,11 @@ import { HighwayComponent } from './highway/highway.component';
 import { EquipmentComponent } from './equipment/equipment.component';
 import { StaffComponent } from './staff/staff.component';
 import { MaterialComponent } from './material/material.component';
-
 import { NgxEchartsModule } from 'ngx-echarts';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { DatapanelComponent } from './datapanel/datapanel.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   imports: [
@@ -19,8 +20,10 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     DashboardRoutingModule,
     NgxEchartsModule,
     NgbModule,
-    NgxDatatableModule
+    NgxDatatableModule,
+    HttpClientModule
   ],
-  declarations: [OverviewComponent, WeatherComponent, ReservoirComponent, HighwayComponent, EquipmentComponent, StaffComponent, MaterialComponent]
+
+  declarations: [OverviewComponent, WeatherComponent, ReservoirComponent, HighwayComponent, EquipmentComponent, StaffComponent, MaterialComponent, DatapanelComponent]
 })
 export class DashboardModule { }

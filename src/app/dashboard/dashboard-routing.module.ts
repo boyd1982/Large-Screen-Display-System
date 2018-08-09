@@ -7,6 +7,7 @@ import { HighwayComponent } from './highway/highway.component';
 import { EquipmentComponent } from './equipment/equipment.component';
 import { StaffComponent } from './staff/staff.component';
 import { MaterialComponent } from './material/material.component';
+import {DatapanelComponent} from './datapanel/datapanel.component'
 
 const routes: Routes = [
   {
@@ -59,8 +60,15 @@ const routes: Routes = [
         component: MaterialComponent,
         data: {
           title: 'Material'
-        }
+        },
       },
+      {
+        path:'DataPanel',
+        component:DatapanelComponent,
+        data:{
+          title:'DataPanel'
+        }
+      }
     ]
   }
 ];

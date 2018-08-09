@@ -17,7 +17,8 @@ export const ROUTES: RouteInfo[] = [
       { path: '/DashBoard/Highway', title: '公路状况', icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
       { path: '/DashBoard/Equipment', title: '应急装备数据', icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
       { path: '/DashBoard/Staff', title: '应急人员数据', icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
-      { path: '/DashBoard/Material', title: '应急物资数据', icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] }
+      { path: '/DashBoard/Material', title: '应急物资数据', icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+      { path:'/DashBoard/DataPanel',title:'数据面板',icon: '', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: []}
     ]
   },
   {
